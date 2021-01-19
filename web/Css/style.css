@@ -1,0 +1,126 @@
+#ContactUs .contact-title {
+	font: 400 26px/115% 'Open Sans', sans-serif;
+	color: #333;
+	text-align: center;
+	margin: 0 0 30px;
+}
+#ContactUs .contact {
+	width: 100%;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+}
+#ContactUs .floating-label {
+	position: relative;
+	width: 47%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#ContactUs .floating-input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #999999;
+	box-shadow: none;
+	background-color: transparent;
+	padding-top: 5x;
+}
+#ContactUs .floating-input:focus {
+	outline: 0;
+	border-bottom: 1px solid #19af83;
+}
+#ContactUs label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font: 400 14px/115% 'Open Sans', sans-serif;
+	text-align: left;
+	color: #999999;
+	transition: top 0.2s ease-in-out;
+	z-index: -1;
+}
+#ContactUs .floating-input:focus ~ label, #ContactUs .floating-input.not-empty ~ label {
+	top: -18px;
+	font: 400 12px/115% 'Open Sans', sans-serif;
+  color:#19af83;
+  transition: top 0.2s ease-in-out;
+}
+#ContactUs .submit-btn {
+	text-align: center;
+}
+#ContactUs .submit-btn button {
+	font: 400 16px/115% 'Open Sans', sans-serif;
+	border: 0;
+	border-radius: 0;
+	background-color: #19af83;
+	color: #fff;
+	padding: 10px 30px;
+	cursor: pointer;
+	outline: 0;
+	border-radius: 28px;
+	color: #fff;
+	border: 1px solid #19af83;
+	transition: all 0.25s ease 0s;
+}
+#ContactUs .submit-btn button:hover {
+	background-color: #fff;
+	color: #19af83;
+	transition: all 0.25s ease 0s;
+}
+
+#ContactUs .address-block {
+	width: 40%;
+	height: 100%;
+	display: table-cell;
+	color: #333;
+	position: relative;
+	padding: 40px;
+}
+#ContactUs .address-block::after {
+  position: absolute;
+  content: "";
+  left: -1%;
+  width: 1px;
+  height: 80%;
+  background: #ccc;
+  top: 10%;
+}
+#ContactUs .c-detail {
+	margin-bottom: 20px;
+}
+#ContactUs .c-detail:last-child {
+	margin-bottom: 0;
+}
+#ContactUs .c-detail .c-icon {
+  width: 12%;
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: top;
+}
+#ContactUs .c-detail .c-info {
+	width: 86%;
+	display: inline-block;
+	vertical-align: top;
+	color: #333;
+}
+#ContactUs .c-detail .c-info h4 {
+	font-size: 20px;
+}
+#ContactUs .c-detail span .fa {
+	vertical-align: top;
+}
+#ContactUs .c-detail a {
+	color: #333;
+}
+#ContactUs .c-detail a:hover {
+	color: #19af83;
+}
+#ContactUs .add-title .c-info h4 {
+	font-size: 20px;
+}
+#ContactUs .contact-outer-wrapper {
+	width: 100%;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+}

@@ -1,0 +1,90 @@
+@media (min-width: 0px) and (max-width: 767px) {
+  #ContactUs {
+    padding: 25px 0;
+  }
+  #ContactUs .contact-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  #ContactUs .form-wrap,
+  #ContactUs .address-block {
+    width: 100%;
+    padding: 20px;
+    display: block;
+  }
+  #ContactUs .form-wrap p {
+    font-size: 16px;
+    text-align: center;
+  }
+  #ContactUs .form-wrap .floating-label {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #ContactUs .form-wrap .user-msg {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #ContactUs .address-block {
+    position: static;
+  }
+  #ContactUs .address-block::after {
+    content: none;
+  }
+  #ContactUs .add-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  #ContactUs .c-detail .c-info h4 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  #ContactUs .c-detail .c-info p {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ContactUs {
+    padding: 40px 0;
+  }
+  #ContactUs .contact-title {
+    margin-bottom: 12px;
+  }
+  #ContactUs .form-wrap {
+    padding: 22px;
+  }
+  #ContactUs .form-wrap .fname,
+  #ContactUs .form-wrap .contact {
+    margin-right: 14px;
+  }
+  #ContactUs .c-detail .c-icon {
+    width: 15%;
+  }
+  #ContactUs .c-detail .c-info {
+    width: 82%;
+  }
+  #ContactUs .address-block {
+    padding: 22px;
+  }
+  #ContactUs .add-title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #ContactUs {
+    padding: 40px 0;
+  }
+  #ContactUs .contact-title {
+    margin-bottom: 12px;
+  }
+  #ContactUs .form-wrap {
+    padding: 22px;
+  }
+  #ContactUs .address-block {
+    padding: 22px;
+  }
+  #ContactUs .add-title {
+    margin-bottom: 30px;
+  }
+}
